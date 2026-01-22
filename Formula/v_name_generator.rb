@@ -1,25 +1,25 @@
 class VNameGenerator < Formula
   desc "A short, v-starting name generator compatible with cli, ntfy, etc..."
   homepage "https://github.com/000volk000/v_name_generator"
-  version "1.0.3"
+  version "1.0.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.3/v_name_generator-aarch64-apple-darwin.tar.xz"
-      sha256 "b00e94744c5e96cb4622d623506aea4f2bf196e89db4c4f54d2d40eddfb37a9f"
+      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.4/v_name_generator-aarch64-apple-darwin.tar.xz"
+      sha256 "a4ceeb764192be186aab099adeef984a5caee932969c0883733572dfeaa47df1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.3/v_name_generator-x86_64-apple-darwin.tar.xz"
-      sha256 "7ba806ab6685031b40a9fd33c8863a9f4ac8b86d438510039574346970fd5b98"
+      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.4/v_name_generator-x86_64-apple-darwin.tar.xz"
+      sha256 "9b2a95e9b01cb296623e37ebf682459244f89c237d537d8414f89500ced4a0b4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.3/v_name_generator-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "87f1630bf4c0997904fb9490825816ab3c90e21f99bc91749a4b07c85e27a8f0"
+      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.4/v_name_generator-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "57bf405671ce7703f1d32ac11875023dd84b10790d5dc824a1bbfa068d4e97e2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.3/v_name_generator-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a2bd3a2e8f0fcb65c4772c6b48504de4d74395ea1af41d43f1f197b981609536"
+      url "https://github.com/000volk000/v_name_generator/releases/download/v1.0.4/v_name_generator-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5bcd91657f5416b75f689f07189ebd5bfee5223251f972da2662f5e98b8cef47"
     end
   end
   license "MIT"
